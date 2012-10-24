@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport' />
+    <title>Blogger photo albúm</title>
+    <meta content='' name='description' />
+    <meta content='' name='author' />
+    <link href='https://doc-0g-60-docs.googleusercontent.com/docs/securesc/lqk7fbhn09mrpec3felmuublvt419bu3/sj2sqgnful931jknd579urltfqm5hns6/1348747200000/09837892853956262466/09837892853956262466/0B7dar3hdXqIgUEl5Y1RmekctaUk?nonce=vjhevettg624a&user=09837892853956262466&hash=bs2m86gt74600n25d38ovnirq8khlhf4' rel='stylesheet' />
+  </head>
+  <body>
+    <h1>
+      Esto es<br/>
+      una prueba<br/>
+      para <br/>
+      poder ver<br/>
+      como funciona en <br/>
+      un div<br/>
+    </h1>
+    <h1>
+      Esto es<br/>
+      una prueba<br/>
+      para <br/>
+      poder ver<br/>
+      como funciona en <br/>
+      un div<br/>
+    </h1>
+    <h1>
+      Esto es<br/>
+      una prueba<br/>
+      para <br/>
+      poder ver<br/>
+      como funciona en <br/>
+      un div<br/>
+    </h1>
+    <a href="google.com">Hola</a>
+
+    <a href="https://picasaweb.google.com/data/feed/base/user/103867210930459195965/albumid/5180985883771215569?alt=rss&kind=photo&hl=es"><img src="https://lh3.googleusercontent.com/-Dlvpxvp59DE/R-aPNhR_HtE/AAAAAAAAA3w/eZUiO2lOI7c/s144-c/VipassanaCochaFeb2008.jpg" /></a>
+    &nbsp;
+    <a href="https://picasaweb.google.com/data/feed/base/user/103867210930459195965/albumid/5659249216150355681?alt=rss&kind=photo&hl=es"><img src="https://lh6.googleusercontent.com/-EnECZvurtWc/UFh_kLtFCgI/AAAAAAAABmA/pLsJX_Q-zH8/s128/boris.jpg" /></a>
+    &nbsp;
+    <a href="https://picasaweb.google.com/data/feed/base/user/103867210930459195965/albumid/5154598631987771489?alt=rss&kind=photo&hl=es"><img src="https://lh4.googleusercontent.com/-qK41PjBXd3o/R4jQV0NYeHI/AAAAAAAAAwU/0UVEYWyLrAo/s128/DSC01964.JPG" /></a>
+
+    <a href="https://picasaweb.google.com/data/feed/base/user/103867210930459195965/albumid/5154593928998582145?alt=rss&kind=photo&hl=es"><img src="https://lh6.googleusercontent.com/-dICV9-QF30o/R4jL3kNYd4E/AAAAAAAAAwM/a7L0f66o-pk/s144-c/Horno.jpg" /></a>
+  </body>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js'></script>
+  <script src='https://doc-0c-60-docs.googleusercontent.com/docs/securesc/lqk7fbhn09mrpec3felmuublvt419bu3/hla9mkdnqsdd1gu4968i8pbnj39rmgon/1348747200000/09837892853956262466/09837892853956262466/0B7dar3hdXqIgVkhxcnc1LXp1UlE'></script>
+  <script src='https://doc-14-60-docs.googleusercontent.com/docs/securesc/lqk7fbhn09mrpec3felmuublvt419bu3/51vtkvl8vqauqhke6o1veqet6h3t71qp/1348747200000/09837892853956262466/09837892853956262466/0B7dar3hdXqIgMGQ0cWhEaXEzUms'></script>
+  <script>
+    (function($) {
+      $('<div/>')
+        .attr({id: 'ad-gallery-container'})
+        .text('Soy ad gallery')
+        .appendTo('body');
+
+      $('a').click(function() {
+        if(this.href.match(/.*picasaweb.*alt=rss/)) {
+          photo = new PicassaAdPhoto(this);
+          photo.createGallery();
+          console.log($(this).position() );
+          return false;
+        }
+      });
+    })(jQuery);
+  </script>
+</html>
